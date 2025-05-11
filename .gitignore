@@ -1,0 +1,35 @@
+# MicroPython
+*.pyc
+*~$
+*.swp
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+REPL_HISTORY
+
+# Build artifacts
+build/
+*.elf
+*.bin
+*.map
+*.uf2
+
+# ESP-IDF & CMake
+**/build*/
+sdkconfig.old
+sdkconfig.ci
+# Add other CMake/ESP-IDF specific generated files if any
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# macOS
+.DS_Store
+
+# If you decide to use a separate config file for credentials
+# config.py
