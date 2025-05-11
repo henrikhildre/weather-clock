@@ -1,0 +1,12 @@
+{
+  "idf.pythonInstallPath": "/Users/hilhen/.pyenv/shims/python",
+  "idf.espIdfPath": "/Users/hilhen/esp/esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.port": "/dev/tty.debug-console",
+  "idf.toolsPath": "/Users/hilhen/.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  }
+}
