@@ -17,7 +17,7 @@ WIFI_PASS = "x"
 LATITUDE = "59.928"
 LONGITUDE = "10.673"
 # YR.NO API User-Agent: "ApplicationName/Version ContactInfo(email/website)"
-YR_USER_AGENT = "ESP32-klokke henrikhildre@gmail.com"
+YR_USER_AGENT = ""
 
 OSLO_UTC_OFFSET = 2 # Oslo is UTC+2 during CEST (Central European Summer Time)
 

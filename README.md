@@ -1,6 +1,8 @@
 # ESP32-S3 GC9A01 Weather Clock
 
-This project is a weather display and UV index clock for an ESP32-S3 microcontroller equipped with a 1.28-inch round GC9A01 LCD display. It fetches live weather data and UV index information from online APIs and presents it in a user-friendly graphical format.
+This project is a weather display and UV index clock for an ESP32-S3 microcontroller. It fetches live weather data and UV index information from online APIs and presents it in a user-friendly graphical format on a 1.28-inch round GC9A01 LCD display.
+
+This project was specifically developed for the "ESP32-S3 Display Screen AI DeepSeek Artificial Intelligence Speech Robot ESP32-N16R8 Development Board Type-C 1.28-inch" (available [here on AliExpress](https://www.aliexpress.com/item/1005008845020307.html)), replacing its original bundled software with a custom MicroPython application.
 
 ## Features
 
@@ -43,7 +45,7 @@ clock/
 ├── mpy_on_device/        # MicroPython code to be deployed to the device
 │   ├── main.py         # Main application script
 │   └── lib/
-│       └── gc9a01.py   # GC9A01 display driver
+│       └── gc9a01.py   # GC9A01 display driver by peterhinch 
 ├── micropython/          # Git submodule for MicroPython source/build
 ├── lvgl-mpy/             # Git submodule for LVGL MicroPython bindings (if used for firmware)
 ├── main/                 # (If used) C/C++ source for ESP-IDF components
