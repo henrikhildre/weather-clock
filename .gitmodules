@@ -1,0 +1,6 @@
+[submodule "lvgl-mpy"]
+	path = lvgl-mpy
+	url = https://github.com/lvgl/lv_binding_micropython
+[submodule "micropython"]
+	path = micropython
+	url = https://github.com/micropython/micropython
